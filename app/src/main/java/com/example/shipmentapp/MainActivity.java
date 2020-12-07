@@ -32,15 +32,15 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 
         switch (item.getItemId()) {
             case R.id.user :
-                getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.fade_in,R.anim.fade_out).replace(R.id.container,userFragment).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.container,userFragment).commit();
                 return true;
 
             case R.id.warehouse :
-                getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.fade_in,R.anim.fade_out).replace(R.id.container,warehouseFragment).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.container,warehouseFragment).commit();
                 return true;
 
             case R.id.retailer :
-                getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.fade_in,R.anim.fade_out).replace(R.id.container,retailerFragment).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.container,retailerFragment).commit();
                 return true;
         }
 

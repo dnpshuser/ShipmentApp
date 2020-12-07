@@ -14,5 +14,9 @@
     <color name="retailercolor">#4CAF50</color>
     <color name="warehousecolor">#FF9800</color>
 
+    <color name="scolor">#2196F3</color>
+
+    <color name="ccolor">#a17fe0</color>
+    <color name="ecolor">#5D26C1</color>
 
 </resources>
